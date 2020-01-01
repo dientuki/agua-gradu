@@ -1,2 +1,2 @@
 # Ultrasonic
-![Breadboard](ultrasonic.jpg?raw=true "Breadboard")
+![Breadboard](ultrasonic.png?raw=true "Breadboard")
