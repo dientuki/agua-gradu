@@ -3,8 +3,8 @@
 
 #include <SoftwareSerial.h>
 
-#define txPin    2              // Connect pin 2 of Nano to US100 trigger/Tx
-#define rxPin    3              // Connect pin 3 of Nano to US100 Echo/Rx
+#define txPin    3              // Connect pin 2 of Nano to US100 trigger/Tx
+#define rxPin    4              // Connect pin 3 of Nano to US100 Echo/Rx
 #define getDist  0x55           // send this to get distance in mm
 #define getCels  0x50           // send this to get temp
 #define loopTime 2000           // delay time in ms between loop iterations
@@ -71,4 +71,3 @@ void loop() {
 
   delay(loopTime);
 }
-
